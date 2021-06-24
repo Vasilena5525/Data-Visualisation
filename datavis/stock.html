@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualisation </title>
+    <meta name="description" content="This is a data visualisation by Vasilena Stamova.">
+    <link rel="stylesheet" href="stock.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+    <meta charset="UTF-8">
+</head>
+<body>  
+    <nav>
+      <h1>Biggest Companies Revenue Changes before and after Covid19</h1>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html"><i class="fas fa-spinner"></i></a></li>
+          <li><a href="bargraph.html"><i class="far fa-chart-bar"></i></a></li>
+          <li><a href="stock.html"><i class="far fa-file-alt"></i></a></li>
+        </ul>
+      </div>    
+    </nav>
+    <div class="container">
+        <h1>Current stock prices and % change</h1>
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Price</th>
+                <th>Change</th>
+            </tr>
+        </table> 
+    </div>
+    <div class="info">
+        <div class="info-box">
+            <i class="fas fa-info-circle"></i>
+            <div class="content">
+                <h3>Unemployment rate</h3>
+                <h4>2019: 3.8%</h4>
+                <h4>2020: 4.7%</h4>
+                <a href="https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment">Read More</a>
+            </div>    
+        </div> 
+        <div class="info-box">
+            <i class="fas fa-chart-line"></i>
+            <div class="content">
+                <h3>GDP rate</h3>
+                <h4>2019: +1.5</h4>
+                <h4>2020: -6.1</h4>
+                <a href="https://www.ons.gov.uk/economy/grossdomesticproductgdp">Read More</a>
+            </div>    
+        </div>    
+    </div>
+    <script>
+       $(function() {
+            $.getJSON('stockdata.json', function(data) {
+                var tr;
+                for (var i = 0; i < data.length; i++) {
+                    tr = $('<tr/>');
+                    tr.append("<td>" + data[i].symbol + "</td>");
+                    tr.append("<td>" + data[i].price + "</td>");
+                    tr.append("<td>" + data[i].change + "</td>");
+                    $('table').append(tr);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+[
+    {
+        "categorie": "Expedia group", 
+        "values": [
+            {
+                "value": 12.067, 
+                "rate": "Revenue before Covid 2019"
+            }, 
+            {
+                "value": 5.199, 
+                "rate": "Revenue after Covid 2020"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Booking", 
+        "values": [
+            {
+                "value": 15.066, 
+                "rate": "Revenue before Covid 2019"
+            }, 
+            {
+                "value": 6.796, 
+                "rate": "Revenue after Covid 2020"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Lufthansa", 
+        "values": [
+            {
+                "value": 36.424, 
+                "rate": "Revenue before Covid 2019"
+            }, 
+            {
+                "value": 13.589, 
+                "rate": "Revenue after Covid 2020"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Google", 
+        "values": [
+            {
+                "value": 161.857, 
+                "rate": "Revenue before Covid 2019"
+            }, 
+            {
+                "value": 182.527, 
+                "rate": "Revenue after Covid 2020"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Amazon", 
+        "values": [
+            {
+                "value": 280.522, 
+                "rate": "Revenue before Covid 2019"
+            }, 
+            {
+                "value": 386.064, 
+                "rate": "Revenue after Covid 2020"
+            }
+        ]
+    }, 
+    {
+        "categorie": "Tesla", 
+        "values": [
+            {
+                "value": 24.578, 
+                "rate": "Revenue before Covid 2019"
+            }, 
+            {
+                "value": 31.536, 
+                "rate": "Revenue after Covid 2020"
+            }
+        ]
+    }
+]    

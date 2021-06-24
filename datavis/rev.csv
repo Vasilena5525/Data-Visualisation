@@ -1,0 +1,26 @@
+rev
+Company;Industry;Group;Revenue before Covid 2019;Revenue after Covid 2020;Percentage change;Radius Before;Radius After
+Disney;Entertainment ;1;69,570;65,388;-6.01%;69;65
+Expedia group;Entertainment ;1;12,067;5,199;-56.92%;12;5
+Marvell;Entertainment ;1;2,865.79;2,699.16;-5.81%;2;2
+Booking;Tavel;2;15,066;6,796;-54.89%;15;6
+Southwest Airlines;Tavel;2;22,428;9,048;-59.66%;22;9
+Lufthansa;Tavel;2;36,424;13,589;-62.69%;36;13
+JP Morgan;Financial;3;115,627;119,543;3.39%;115;119
+Hilton;Hospitality;4;9,452;4,307;-54.43%;9;4
+Hyatt;Hospitality;4;5,020;2,066;-58.84%;5;2
+Google;Tech;5;161,857;182,527;12.77%;161;182
+Аpple;Tech;5;260,174;274,515;5.51%;260;274
+Microsoft;Tech;5;125,843;143,015;13.65%;125;143
+Pay Pal;Tech;5;17,772;21,454;20.72%;17;21
+Philips;Tech;5;19,482;19,535;0.27%;19;19
+Amazon;Tech;5;280,522;386,064;37.62%;280;386
+Facebook;Tech;5;70,697;85,965;21.60%;70;85
+Nike;Fashion;6;39,117;37,403;-4.38%;39;37
+Asos;Fashiom;6;2,733.50;3,263.50;19.39%;2;3
+Nestle;Food;7;92,865;84,681;-8.81%;92;84
+McDonalds;Food;7;21,076.50;19,207.80;-8.87%;21;19
+Coca Cola;Food;7;37,266;33,014;-11.41%;37;33
+Johnson and Johnson;Pharmaceuticals ;9;82,059;82,584;0.64%;82;82
+Pfiser;Pharmaceuticals ;9;51,750;41,908;-19.02%;51;41
+Tesla;Automotive;11;24,578;31,536;28.31%;24;31
